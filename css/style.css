@@ -1,1 +1,122 @@
-@import url('./normalize.css');
+@import url(normalize.css);
+
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+	font-family: "Atma", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	text-align: center;
+}
+
+.weather-container {
+	background: #3399CC;
+	padding: 30px;
+	border: 25px solid #2B81AC;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+	color: white;
+	font-size: 21px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.weather {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	border: 2px solid #FFF;
+	margin-bottom: 20px;
+}
+
+.city-block {
+	display: inline-block;
+	color: white;
+	position: relative;
+	cursor: url(/img/cursor.svg), pointer;
+	padding: 20px 10px;
+	border: 2px solid #FFF;
+}
+
+.city-block:hover {
+	opacity: 0.7;
+}
+
+.city-name,
+.temperature {
+	font-size: 22px;
+	margin-bottom: 8px;
+}
+
+.weather-icon {
+	font-size: 24px;
+	line-height: 1;
+}
+
+.lisbon {
+	background: #3399CC;
+	width: 50%;
+}
+
+.paris {
+	background: #33CCCC;
+	width: 25%;
+}
+
+.belgrade {
+	background: #996699;
+	width: 25%;
+}
+
+.venice {
+	background: #C24747;
+	width: 25%;
+}
+
+.tel-aviv {
+	background: #E2674A;
+	width: 25%;
+}
+
+.cairo {
+	background: #FFCC66;
+	width: 25%;
+}
+
+.new-york {
+	background: #99CC99;
+	width: 25%;
+}
+
+.new-delhi {
+	background: #669999;
+	width: 25%;
+}
+
+.san-francisco {
+	background: #CC6699;
+	width: 50%;
+}
+
+.tokyo {
+	background: #339966;
+	width: 25%;
+}
+
+.sydney {
+	background: #666699;
+	width: 100%;
+}
+
+.footer-text {
+	color: white;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 10px;
+}
