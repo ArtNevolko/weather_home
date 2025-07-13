@@ -39,7 +39,7 @@ body {
 	display: inline-block;
 	color: white;
 	position: relative;
-	cursor: url(/img/cursor.svg), pointer;
+	cursor: url(./img/cursor.svg), pointer;
 	padding: 20px 10px;
 	border: 2px solid #FFF;
 }
